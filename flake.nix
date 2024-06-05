@@ -27,7 +27,7 @@
         packages.default = pkgs.hello;
         devshells.default = {
           env = [
-            { name = "MY_ENV_VAR"; value = "SOTRUE"; }
+            # { name = "MY_ENV_VAR"; value = "SOTRUE"; }
           ];
           packages = with pkgs; [
             gnumake
@@ -35,7 +35,7 @@
             php
           ];
           commands = [
-            { name = "devshell-test"; command = "echo 'Is this working?'"; help = "A command to test devshell";}
+            # { name = "devshell-test"; command = "echo 'Is this working?'"; help = "A command to test devshell";}
           ];
         };
       };
