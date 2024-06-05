@@ -29,8 +29,10 @@
           env = [
             { name = "MY_ENV_VAR"; value = "SOTRUE"; }
           ];
-          packages = [
-
+          packages = with pkgs; [
+            gnumake
+            nodejs_18
+            php
           ];
           commands = [
             { name = "devshell-test"; command = "echo 'Is this working?'"; help = "A command to test devshell";}
