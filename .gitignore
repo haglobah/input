@@ -24,3 +24,5 @@ yarn-error.log
 /.scribe
 coverage
 _ide_helper.php
+
+.envrc
