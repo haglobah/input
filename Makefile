@@ -1,4 +1,4 @@
-SHELL=/bin/bash
+SHELL=bash
 baseDir := $(shell pwd)
 userRights := $(shell id -u):$(shell id -g)
 
